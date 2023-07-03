@@ -1,0 +1,35 @@
+.container{
+    background-image: linear-gradient(to right, #99DBF5 , #A7ECEE);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{ 
+    padding: 1rem;
+    width: calc(500px - 250px);
+    overflow-wrap: break-word;
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-structure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.button-structure{
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+}
+
+
+.name{
+    text-align: center;
+}

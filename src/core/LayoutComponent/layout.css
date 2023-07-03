@@ -1,0 +1,16 @@
+.children-router-outlet{
+    margin: 70px 0px 0px 250px;
+    
+}
+
+@media (max-width:  900px){
+    .children-router-outlet{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:600px){
+    .children-router-outlet{
+        margin-top: 60px;
+    }
+}
